@@ -27,3 +27,9 @@ Hi! I'm **Dabananda Mitra**. I am sharing my Linux setup files and procedures he
  11. **zshrc** file will be opened. Set the **ZSH_THEME** theme to **powerlevel10k/powerlevel10k"**
  ```ZSH_THEME="powerlevel10k/powerlevel10k"```
  12. Now close the terminal and open again to configure the **zsh** terminal. That's it.
+ 
+ If you are using **Visual Studio Code** then open the **settings.json** file and add the following two configuration. Otherwise the theme icons will be shown broken.
+ ```
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+```
