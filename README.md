@@ -45,6 +45,6 @@ For example:
 
 Where,
 
-> ln: Create a link in the file system
-> -s: Make it a symbolic link
-> ~/: Alias for “/home/$USER/” (Your home directory)
+ - ln: Create a link in the file system
+ - -s: Make it a symbolic link
+ - ~/: Alias for “/home/$USER/” (Your home directory)
