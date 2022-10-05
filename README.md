@@ -33,3 +33,18 @@ Hi! I'm **Dabananda Mitra**. I am sharing my Linux setup files and procedures he
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.fontFamily": "MesloLGS NF",
 ```
+
+## Create shortcut using command line (Ubuntu)
+
+Command line syntax:
+> ln -s "shortcut folder directory" "Desktop directory"
+
+For example:
+
+    ln -s "~/New Volume/Downloads/" ~/Desktop/
+
+Where,
+
+> ln: Create a link in the file system
+> -s: Make it a symbolic link
+> ~/: Alias for “/home/$USER/” (Your home directory)
